@@ -1939,6 +1939,7 @@
 		B3AC09F61E5AB9DB002F7AF3 /* DuiTangUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B3AC0CC21E5AC048002F7AF3 /* Controller */,
 				B3AC09F71E5AB9DB002F7AF3 /* DuiTangUITests.m */,
 				B3AC09F91E5AB9DB002F7AF3 /* Info.plist */,
 			);
@@ -2404,7 +2405,6 @@
 		B3AC0CC11E5AC048002F7AF3 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				B3AC0CC21E5AC048002F7AF3 /* Controller */,
 				B3AC0CC31E5AC048002F7AF3 /* Model */,
 				B3AC0CC41E5AC048002F7AF3 /* View */,
 			);
