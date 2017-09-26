@@ -43,6 +43,10 @@
 }
 
 #pragma mark - 准备UI
+static void extracted(BaseTabBarController *object) {
+    [object addTabBarButton];
+}
+
 - (void)prepareUI{
     
     NSArray *arr = [self createViewControllers];
@@ -58,7 +62,7 @@
     }
     self.viewControllers = naviArr;
     
-    [self addTabBarButton];
+    extracted(self);
     
     
 }
